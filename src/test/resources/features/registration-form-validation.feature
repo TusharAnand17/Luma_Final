@@ -1,3 +1,4 @@
+@registration
 Feature: Registration Form Validation and Submission
 
   Scenario: Verify required fields validation
