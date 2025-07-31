@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features",
         glue = {"com.epam.luma.stepdefinitions","com.epam.luma.hooks"},
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true
+        monochrome = true,
+        tags = "@registration"
 )
 public class UITestRunner extends AbstractTestNGCucumberTests {
 }
